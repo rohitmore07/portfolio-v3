@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    background-color: #0f0e0e;
+    color: #ffffff;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  html.dark body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+}
+
+.font-instrument {
+  font-family: 'Instrument Serif', Georgia, serif;
+}
+
+.font-inter {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-mono {
+  font-family: 'Geist Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+::view-transition-old(root) {
+  mix-blend-mode: normal;
+  animation: none;
+}
+
+::view-transition-new(root) {
+  mix-blend-mode: normal;
+  animation: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
