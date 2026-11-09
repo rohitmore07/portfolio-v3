@@ -277,53 +277,25 @@ export const HIGHLIGHTS: HighlightTweet[] = [
   {
     name: 'Sami',
     handle: 'TheXSami',
-    avatar: 'https://github.com/rauchg.png',
+    avatar: 'https://avatars.githubusercontent.com/u/55199091?v=4',
     text: 'Congrats on 1.5K, Rohit!',
     link: 'https://x.com/TheXSami/status/2111607504832794685?a=qgwkVmT4nZ6ADHX-elk&s=20',
     pinned: true,
   },
   {
-    name: 'Manu Arora',
-    handle: 'mannupaaji',
-    avatar: 'https://avatars.githubusercontent.com/u/23276437?v=4',
-    text: 'Sexy',
-    link: 'https://x.com/mannupaaji/status/1982504453724078282?s=20',
+    name: 'acrosett',
+    handle: 'acrosettdev',
+    avatar: 'http://avatars.githubusercontent.com/u/104265464?v=4',
+    text: 'Good advice⭐️',
+    link: 'https://x.com/acrosettdev/status/1817850389527396661?a=vei620975L3cuUkXYfI&s=20',
     pinned: true,
   },
   {
-    name: '💻🎒',
-    handle: 'CodingNoobie',
-    avatar: 'https://i.pinimg.com/736x/d7/58/51/d75851c686f7cccaf316b9a2bc2d89d6.jpg',
-    text: 'Absolutely cooking my GOAT🐐🐐🐐🐐🐐',
-    link: 'https://x.com/CodingNoobie/status/2068942767162798493?s=20',
-  },
-  {
-    name: 'Khushal',
-    handle: 'Kushalpoudel_',
-    avatar: 'https://i.pinimg.com/736x/ce/2a/eb/ce2aeb2da258d90a7f0bbe64251d775b.jpg',
-    text: 'Bro getting so goated on design , keep doing this 🥹',
-    link: 'https://x.com/Kushalpoudel_/status/1986544899035222153?s=20',
-  },
-  {
-    name: 'NIL❄️',
-    handle: '@ilspiritz',
-    avatar: 'https://i.pinimg.com/736x/ae/27/df/ae27df6c8403ff92b731610022fbc711.jpg',
-    text: 'The UI is so nailed on man, Comfortable, clutter free and standard. Love it dude  @samirande_',
-    link: 'https://x.com/nilspiritz/status/2074775714918993940?s=20',
-  },
-  {
-    name: 'Robin',
-    handle: 'varunxtwt',
-    avatar: 'https://i.pinimg.com/736x/f0/e9/46/f0e9463cb7269192079c3a2e97e4e058.jpg',
-    text: 'Congratulations bro 🚀, genuinely one of the best platform, ngl it keeps me accountable.',
-    link: 'https://x.com/varunxtwt/status/2070898384093987046?s=20',
-  },
-  {
-    name: 'Quby',
-    handle: 'qubydev',
-    avatar: 'https://avatars.githubusercontent.com/u/107231583?v=4',
-    text: 'We got @samirande_ composing a song from his portfolio site after GTA VI',
-    link: 'https://x.com/qubydev/status/2074540875661844851?s=20',
+    name: 'Bastian Koh',
+    handle: 'bastiankoh',
+    avatar: 'https://avatars.githubusercontent.com/u/68964818?v=4',
+    text: 'Incredible!',
+    link: 'https://x.com/bastiankoh/status/1750591831522635834?a=0yZdyoQWwTPqbPkp1Mk&s=20',
   },
 ];
 
@@ -338,13 +310,13 @@ export interface OpenSourcePR {
 
 export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] = [
   {
-    org: 'Excalidraw',
+    org: 'Concord AI',
     prs: [
       {
-        repo: 'excalidraw/excalidraw',
-        prNumber: '#11722',
-        title: 'fix(editor): prevent eyedropper preview from overflowing viewport',
-        url: 'https://github.com/excalidraw/excalidraw/pull/11722',
+        repo: 'Get-Concord-AI/concord-mcp',
+        prNumber: '#302',
+        title: 'feat : supersede earlier decisions on a task',
+        url: 'https://github.com/Get-Concord-AI/concord-mcp/pull/302',
         status: 'merged',
         details: [
           'Clamped eyedropper color preview tooltip coordinates within viewport boundaries near screen edges.',
@@ -352,10 +324,10 @@ export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] =
         ],
       },
       {
-        repo: 'excalidraw/excalidraw',
-        prNumber: '#11681',
-        title: 'fix(editor): make Help button tooltip consistent with toolbar',
-        url: 'https://github.com/excalidraw/excalidraw/pull/11681',
+        repo: 'Get-Concord-AI/concord-mcp',
+        prNumber: '#307',
+        title: 'feat : qwen config setup',
+        url: 'https://github.com/Get-Concord-AI/concord-mcp/pull/307',
         status: 'merged',
         details: [
           'Aligned Help button tooltip styling, delay, and shortcut presentation with other toolbar actions.',
@@ -366,7 +338,7 @@ export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] =
         repo: 'excalidraw/excalidraw',
         prNumber: '#11727',
         title: 'feat: add one-click action to flip arrow direction',
-        url: 'https://github.com/excalidraw/excalidraw/pull/11727',
+        url: 'https://github.com/excalidraw/excalidraw/pull/00',
         status: 'open',
         details: [
           'Implemented single-click arrow reversal in the inspector panel while preserving arrowheads and bindings.',
@@ -376,13 +348,13 @@ export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] =
     ],
   },
   {
-    org: 'Gluestack UI',
+    org: 'Bruno',
     prs: [
       {
-        repo: 'gluestack/gluestack-ui',
+        repo: 'usebruno/bruno',
         prNumber: '#3436',
         title: 'Fix/button text color theme',
-        url: 'https://github.com/gluestack/gluestack-ui/pull/3436',
+        url: 'https://github.com/gluestack/gluestack-ui/pull/0',
         status: 'open',
         details: [
           'Resolved contrast and token inheritance issues for Button text colors across light and dark themes.',

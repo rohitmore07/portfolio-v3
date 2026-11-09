@@ -4,6 +4,7 @@ import { PROJECTS, TECH_STACK, TechCategory } from '../data/portfolioData';
 import { ProjectCard } from '../components/ProjectCard';
 import { GitHubActivity } from '../components/GitHubActivity';
 import { HighlightsMarquee } from '../components/HighlightsMarquee';
+import { Contribution } from '../components/Contribution';
 import { TechStack } from "../components/TechStack";
 import { playPopSound, TECH_PIANO_FREQUENCIES } from '../utils/sound';
 import { RoutePath } from '../components/Navbar';
@@ -618,6 +619,10 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
         <motion.div variants={riseVariants}>
           <HighlightsMarquee />
         </motion.div>
+
+        <motion.div variants={riseVariants} className="pl-3 sm:pl-4">
+  <Contribution />
+</motion.div>
 
         {/* Scrolled Too Far CTA Section */}
         <motion.div

@@ -66,9 +66,9 @@ const ANIME = [
     desc: 'An epic Viking saga detailing vengeance, honor, and the search for a land without war.',
   },
   {
-    title: 'Erased',
-    creator: 'Creator: Kei Sanbe',
-    desc: 'A young manga artist is sent back in time to prevent a kidnapping tragedy from his childhood.',
+    title: 'Blue Lock',
+    creator: 'Creator: Muneyuki Kaneshiro',
+    desc: 'A group of Japan’s most ambitious young strikers compete in an intense program to become the world’s greatest footballer.',
   },
 ];
 
