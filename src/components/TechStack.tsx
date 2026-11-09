@@ -211,7 +211,7 @@ export const TechStack: React.FC = () => {
       {/* Header */}
       <div className="w-full flex flex-col sm:flex-row sm:items-center justify-between gap-3 h-auto sm:h-12 pb-2 md:pb-0">
         <div className="flex flex-row items-baseline gap-2">
-          <p className="font-serif text-3xl text-white dark:text-black">
+          <p className="font-instrument text-3xl text-white dark:text-black">
             Tech Stack
           </p>
 

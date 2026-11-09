@@ -144,25 +144,25 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   return (
     <div className="bg-[#0F0E0E] dark:bg-[#ffffff] w-full min-h-screen flex justify-center relative">
       {/* Full-viewport horizontal dashed architectural guide lines */}
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-46 sm:top-66 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-84 sm:top-106 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-101 sm:top-123 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-180 sm:top-173 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-196 sm:top-190 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-211 sm:top-205 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-211 sm:top-205 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-228 sm:top-222 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-688 md:top-457 lg:top-452 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-703.5 md:top-475 lg:top-470 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-765 md:top-507 lg:top-515 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-781 md:top-525 lg:top-532 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-575 md:top-567 top-824.5 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-841.5 md:top-586 lg:top-593 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-637 md:top-629 top-886 pointer-events-none" />
-      <div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-654 md:top-647 top-904 pointer-events-none" />
-      <div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-956 sm:top-710 pointer-events-none" />
-      <div className="hidden md:block absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-775 pointer-events-none" />
-      <div className="hidden md:block absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-807 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-46 sm:top-66 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-84 sm:top-106 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-101 sm:top-123 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-180 sm:top-173 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-196 sm:top-190 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-211 sm:top-205 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-211 sm:top-205 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-228 sm:top-222 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-688 md:top-457 lg:top-490 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-703.5 md:top-475 lg:top-508 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-765 md:top-507 lg:top-553 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-781 md:top-525 lg:top-570 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-575 md:top-567 top-824.5 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-841.5 md:top-586 lg:top-593 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-637 md:top-629 top-886 pointer-events-none" />
+<div className="absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 lg:top-654 md:top-647 top-904 pointer-events-none" />
+<div className="absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-956 sm:top-710 pointer-events-none" />
+<div className="hidden md:block absolute border-y h-5 bg-white/2 dark:bg-black/2 w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-775 pointer-events-none" />
+<div className="hidden md:block absolute border-t w-screen border-[#272727] dark:border-neutral-200 border-dashed left-0 top-807 pointer-events-none" />
 
       {/* Center Column (max-w-200 = 800px) */}
       <motion.div
@@ -230,7 +230,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               </button>
 
               <p className="font-instrument text-[23px] sm:text-4xl text-white dark:text-black leading-none truncate max-w-full">
-                Rohit More
+                Roheet More
               </p>
 
               <div className="font-inter mt-1">
@@ -302,24 +302,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="flex gap-2">
               <p className="text-neutral-500">• </p>
               <p>
-                I&apos;m a <span className="font-bold underline">Full Stack Engineer</span> passionate
-                about crafting digital products where thoughtful design meets clean, scalable code.
+                I&apos;m a <span className="font-bold underline">Full Stack Engineer</span> passionate about building meaningful digital products that combine thoughtful design, clean code and scalable architecture.
               </p>
             </div>
             <div className="flex gap-2">
               <p className="text-neutral-500">• </p>
               <p>
-                I design and develop modern interfaces with{' '}
-                <span className="font-bold underline"> React, Tailwind, Motion </span>focusing on
-                usability, performance, and delightful interactions.
-              </p>
-            </div>
-            <div className="flex gap-2">
-              <p className="text-neutral-500">• </p>
-              <p>
-                Currently a 2nd-year B.Tech CSE student, I enjoy transforming ideas into polished
-                products, exploring new technologies, refining details, and creating intuitive and
-                memorable experiences.
+                 Actively exploring AI engineering, working with AI Agents, Agentic Workflows, RAG, MCP, LLM Integrations, Multi-Agent Systems.
               </p>
             </div>
           </div>
@@ -514,7 +503,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
               className="w-full h-full"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/file/d/1E0zZkC-xIJBDcFbz5ehpsge4cC1_99pe/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ueF1LWEdPcHVELMbzAlcOz5l6L1sCL73/view?usp=drive_link"
             >
               <div className="w-full h-full flex items-center justify-center md:justify-start md:px-3 gap-2 border-x cursor-pointer hover:bg-white/2 dark:hover:bg-black/2 transition-all duration-200 group border-dashed border-[#272727] dark:border-neutral-200">
                 <div className="size-10 rounded-lg border-2 border-[#272727] dark:border-neutral-200 flex justify-center items-center bg-white/2 dark:bg-black/2 hover:bg-white/3 shrink-0">

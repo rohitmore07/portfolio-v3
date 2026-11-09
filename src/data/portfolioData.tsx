@@ -29,7 +29,7 @@ export const PROJECTS: ProjectItem[] = [
   },
   {
     id: 'prsnclink',
-    title: 'PrsncLink',
+    title: 'Prsnclink',
     tagline: 'Private in-browser media compressor SaaS.',
     description:
             'Digital identity platform for creating personalized professional profiles and shareable digital business cards with instant publishing, QR code sharing and PNG export.' 
@@ -275,11 +275,11 @@ export interface HighlightTweet {
 
 export const HIGHLIGHTS: HighlightTweet[] = [
   {
-    name: 'Guillermo Rauch',
-    handle: 'rauchg',
+    name: 'Sami',
+    handle: 'TheXSami',
     avatar: 'https://github.com/rauchg.png',
-    text: 'you may have started a mini design trend',
-    link: 'https://x.com/rauchg/status/1984061493785325663?s=20',
+    text: 'Congrats on 1.5K, Rohit!',
+    link: 'https://x.com/TheXSami/status/2111607504832794685?a=qgwkVmT4nZ6ADHX-elk&s=20',
     pinned: true,
   },
   {
