@@ -352,9 +352,9 @@ export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] =
     prs: [
       {
         repo: 'usebruno/bruno',
-        prNumber: '#3436',
-        title: 'Fix/button text color theme',
-        url: 'https://github.com/gluestack/gluestack-ui/pull/0',
+        prNumber: '#9810',
+        title: 'fix(apps): allow unsetting runtime variables from collection and requ…',
+        url: 'https://github.com/usebruno/bruno/pull/9810',
         status: 'open',
         details: [
           'Resolved contrast and token inheritance issues for Button text colors across light and dark themes.',
@@ -363,7 +363,38 @@ export const OPEN_SOURCE_CONTRIBUTIONS: { org: string; prs: OpenSourcePR[] }[] =
     ],
   },
 ];
+export interface WorkExperience {
+  company: string;
+  location: string;
+  role: string;
+  period: string;
+  highlights: string[];
+}
 
+export const WORK_EXPERIENCE: WorkExperience[] = [
+  /*{
+    company: 'UNISKY TECHNOLOGIES',
+    location: 'Mumbai, Maharashtra',
+    role: 'Full Stack Developer',
+    period: 'Dec 2025 – Present',
+    highlights: [
+      'Developed and maintained responsive, scalable web applications using React.js, Next.js, JavaScript (ES6+), TypeScript and Tailwind CSS, focusing on reusable component architecture, optimized rendering and intuitive user experiences.',
+      'Implemented efficient client-side data management and server communication using TanStack Query and REST APIs, handling asynchronous operations, API integration and dynamic application states.',
+      'Integrating backend services using Node.js and Express.js, along with MongoDB for database operations, data modelling and application-level data management.',
+      'Collaborated across frontend and backend workflows to translate functional requirements into maintainable solutions, improve application performance and deliver consistent user experiences.',
+    ],
+  },*/
+  {
+    company: 'LTIMINDTREE',
+    location: 'Pune, Maharashtra',
+    role: 'Project Intern',
+    period: 'Aug 2023 – Nov 2023',
+    highlights: [
+      'Developed responsive, interactive enterprise application interfaces using React.js and Material UI, integrating REST APIs to manage dynamic data rendering, application state and seamless user interactions.',
+      'Collaborated with developers and cross-functional teams throughout the software development lifecycle, contributing to feature implementation, debugging, UI refinements and application maintenance.',
+    ],
+  },
+];
 export interface BookItem {
   title: string;
   author: string;

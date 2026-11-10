@@ -68,7 +68,7 @@ const ANIME = [
   {
     title: 'Blue Lock',
     creator: 'Creator: Muneyuki Kaneshiro',
-    desc: 'A group of Japan’s most ambitious young strikers compete in an intense program to become the world’s greatest footballer.',
+    desc: 'A group of Japan’s most ambitious young strikers compete in an intense program to become the world’s greatest footballer.git add .',
   },
 ];
 

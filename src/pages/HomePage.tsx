@@ -120,13 +120,13 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       try {
-        const stored = localStorage.getItem('samworks_view_count');
+        const stored = localStorage.getItem('roworks_view_count');
         const hasVisited = sessionStorage.getItem('has-visited-portfolio');
         let count = stored ? parseInt(stored, 10) : 1023;
         if (Number.isNaN(count) || count < 1023) count = 1023;
         if (!hasVisited) {
           count += 1;
-          localStorage.setItem('samworks_view_count', String(count));
+          localStorage.setItem('roworks_view_count', String(count));
           sessionStorage.setItem('has-visited-portfolio', 'true');
         }
         setViewCount(count);
@@ -230,7 +230,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 </svg>
               </button>
 
-              <p className="font-instrument text-[23px] sm:text-4xl text-white dark:text-black leading-none truncate max-w-full">
+              <p className="font-instrument text-[23px] sm:text-4xl text-[#BBD0F4] dark:text-black leading-none truncate max-w-full">
                 Roheet More
               </p>
 
@@ -303,7 +303,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="flex gap-2">
               <p className="text-neutral-500">• </p>
               <p>
-                I&apos;m a <span className="font-bold underline">Full Stack Engineer</span> passionate about building meaningful digital products that combine thoughtful design, clean code and scalable architecture.
+                I&apos;m a <span className="text-[#BBD0F4] dark:text-black font-bold underline">Full Stack Engineer</span> passionate about building meaningful digital products that combine thoughtful design, clean code and scalable architecture.
               </p>
             </div>
             <div className="flex gap-2">
@@ -642,7 +642,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
                 e.preventDefault();
                 onNavigate('/contact');
               }}
-              className="group relative overflow-hidden flex items-center justify-center gap-2 cursor-pointer w-48 h-11 bg-white dark:bg-black text-[#0F0E0E] dark:text-white border border-transparent rounded-full shadow-[0_4px_14px_rgba(255,255,255,0.06)] dark:shadow-[0_4px_14px_rgba(0,0,0,0.08)] hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"
+              className="group relative overflow-hidden flex items-center justify-center gap-2 cursor-pointer w-48 h-11 bg-[#BBD0F4] dark:bg-black text-[#0F0E0E] dark:text-white border border-transparent rounded-full shadow-[0_4px_14px_rgba(255,255,255,0.06)] dark:shadow-[0_4px_14px_rgba(0,0,0,0.08)] hover:scale-[1.03] active:scale-[0.97] transition-all duration-200"
             >
               <div className="absolute inset-0 w-[60%] h-full bg-gradient-to-r from-transparent via-black/10 dark:via-white/20 to-transparent -skew-x-[25deg] -translate-x-[180%] group-hover:translate-x-[280%] transition-transform duration-[700ms] ease-out pointer-events-none" />
               <span className="font-inter text-base tracking-tight font-semibold relative z-10">
